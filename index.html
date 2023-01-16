@@ -62,7 +62,7 @@
         <div class="container">
           <h1 class="dark-title">Effective Solutions for Your Business</h1>
           <button class="dark-btn" type="button">
-            <span class="dark-btn-title">Order Service</span>
+            <span class="dark-btn-title" data-modal-open>Order Service</span>
           </button>
         </div>
       </section>
@@ -428,15 +428,13 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <div class="modal-close">
-          <button type="button" class="close">
-              <svg class="close-icon" widht="8" height="8">
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-          </button>
-        </div>
+        <button type="button" class="close" data-modal-close>
+          <svg class="close-icon" widht="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
