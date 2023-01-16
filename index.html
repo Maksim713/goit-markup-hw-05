@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Studio</title>
   </head>
@@ -427,5 +428,21 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <div class="modal-close">
+          <button type="button" class="close">
+              <svg class="close-icon" widht="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
