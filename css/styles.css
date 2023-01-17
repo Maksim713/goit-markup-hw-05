@@ -358,6 +358,8 @@ button {
 }
 
 .team-soc-icon {
+  width: 16px;
+  height: 16px;
   fill: var(--light);
 }
 
@@ -408,6 +410,8 @@ button {
 }
 
 .clients-icon {
+  width: 104px;
+  height: 56px;
   fill: currentColor;
 }
 
@@ -592,6 +596,8 @@ button {
 }
 
 .footer-soc-icon {
+  width: 24px;
+  height: 24px;
   fill: var(--light);
 }
 
@@ -627,7 +633,7 @@ button {
   transform: translate(-50%, -50%) scaleY(0);
 }
 
-.close {
+.modal-close {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -643,6 +649,8 @@ button {
 }
 
 .close-icon {
+  width: 8px;
+  height: 8px;
   fill: #000000;
 }
 
